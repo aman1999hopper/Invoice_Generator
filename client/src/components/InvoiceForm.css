@@ -1,0 +1,58 @@
+/* client/src/components/InvoiceForm.css */
+
+.invoice-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .invoice-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-form input[type="text"],
+  .invoice-form input[type="number"],
+  .invoice-form input[type="date"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .invoice-form input[type="text"]:focus,
+  .invoice-form input[type="number"]:focus,
+  .invoice-form input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .invoice-form .item-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .invoice-form .item-inputs div {
+    width: calc(50% - 10px);
+  }
+  
+  .invoice-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .invoice-form button:hover {
+    background-color: #0056b3;
+  }
+  
