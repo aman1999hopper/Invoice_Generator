@@ -48,17 +48,6 @@ Running the App
 4. To start the client server
    
    npm start
-  
-
-
-
-For example, to create an invoice, send a POST request to http://localhost:5000/api/invoices with the following JSON payload:
-{
-  "customerName": "John Doe",
-  "invoiceNumber": "INV-001",
-  "totalAmount": 100.00,
-  "dueDate": "2022-01-31"
-}
 
 You can use tools like Postman or curl to test the API endpoints.
 
