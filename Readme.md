@@ -20,35 +20,37 @@ MongoDB (version 4 or later)
 
 
 Installation
-1.
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/your-username/invoice-management-system.git
+  git clone https://github.com/aman1999hopper/Invoice_Generator.git
 
-2.
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd invoice-management-system
+  cd INVOICE_GENERATOR
 
-3.
-Install the required dependencies:
+3. Install the required dependencies:
 
-npm install
+  npm install
 
 Running the App
-1.
-Create a .env file in the root directory of the project and add your MongoDB connection string:
 
-MONGODB_URI=mongodb://localhost:27017/invoice-management-system
+1. Create a .env file in the root directory of the project and add your   MongoDB connection string:
 
-2.
-Start the MongoDB server (if not already running).
-3.
-Start the Node.js server:
+  MONGODB_URI=mongodb://localhost:27017/invoice
 
-npm start
+2. Start the MongoDB server (if not already running).
+3. Start the Node.js server:
 
-The server will start running on http://localhost:5000. You can now access the API endpoints for managing invoices.
+  nodemon server.js 
+
+  The server will start running on http://localhost:5000. You can now access the API endpoints for managing invoices.
+
+4. To start the client server
+   
+   npm start
+  
+
+
 
 For example, to create an invoice, send a POST request to http://localhost:5000/api/invoices with the following JSON payload:
 {
